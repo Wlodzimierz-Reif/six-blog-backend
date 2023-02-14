@@ -39,13 +39,13 @@
 // };
 
 
-import HelloWorldButton from "./extensions/components/HelloWorldButton";
+import PreviewButton from "./extensions/components/PreviewButton";
 
 export default {
   bootstrap(app) {
-    app.injectContentManagerComponent("editView", "informations", {
-      name: "HelloWorldButton",
-      Component: HelloWorldButton,
+    app.injectContentManagerComponent("editView", "right-links", {
+      name: "PreviewButton",
+      Component: PreviewButton,
     });
   },
 };
